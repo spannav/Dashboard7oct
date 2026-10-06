@@ -1,0 +1,501 @@
+game_id,title,platform,release_year,genre,publisher,na_sales,eu_sales,jp_sales,other_sales,global_sales,coritic_scre,user_score,esrb_rating
+1,Game 1 - Shooter PC,PC,2024,Shooter,Nintendo,1.64,0.71,1.6,1.69,5.64,78.5,7.5,M
+2,Game 2 - Sports PS5,PS5,2024,Sports,Activision,4.85,1.76,0.1,0.63,7.35,79.1,7.2,E
+3,Game 3 - Shooter PC,PC,2013,Shooter,Square Enix,1.27,0.12,0.02,0.21,1.63,61.1,6.6,M
+4,Game 4 - Sports PS4,PS4,2021,Sports,Sony Computer Entertainment,0.81,0.4,1.07,0.59,2.86,76.5,5.5,E
+5,Game 5 - Sports Switch,Switch,2016,Sports,Square Enix,0.58,0.91,0.05,0.54,2.08,66.9,6.3,E10+
+6,Game 6 - Misc Switch,Switch,2015,Misc,Nintendo,1.37,13.05,0.72,0.32,15.46,99.0,8.1,E10+
+7,Game 7 - Misc XOne,XOne,2016,Misc,Activision,1.23,0.12,0.04,0.45,1.83,82.5,8.5,M
+8,Game 8 - Shooter PS4,PS4,2014,Shooter,Square Enix,0.89,0.61,0.03,0.18,1.71,67.9,8.4,M
+9,Game 9 - Misc XOne,XOne,2024,Misc,Nintendo,1.41,0.14,1.09,0.25,2.89,67.6,7.7,E10+
+10,Game 10 - Shooter Switch,Switch,2014,Shooter,Square Enix,2.8,2.08,0.07,0.27,5.22,84.4,9.9,M
+11,Game 11 - Racing PC,PC,2024,Racing,Sony Computer Entertainment,0.62,0.68,0.05,0.11,1.46,82.7,9.9,E
+12,Game 12 - Sports PS4,PS4,2014,Sports,Ubisoft,0.93,2.23,0.28,0.19,3.64,81.6,9.9,T
+13,Game 13 - Platform PS4,PS4,2020,Platform,Ubisoft,0.96,3.91,0.01,0.84,5.72,82.5,7.8,M
+14,Game 14 - Racing PS5,PS5,2016,Racing,Take-Two Interactive,1.1,0.11,0.14,0.53,1.88,91.5,8.4,M
+15,Game 15 - Shooter PC,PC,2021,Shooter,Activision,0.45,0.5,0.55,0.51,2.0,67.7,7.5,T
+16,Game 16 - Simulation PS5,PS5,2017,Simulation,Square Enix,1.1,2.16,0.08,0.27,3.6,72.5,5.1,T
+17,Game 17 - Racing PC,PC,2016,Racing,Nintendo,1.34,1.06,0.74,0.29,3.44,59.9,5.4,E
+18,Game 18 - Platform XOne,XOne,2014,Platform,Ubisoft,0.71,0.37,0.15,0.55,1.78,96.2,9.9,T
+19,Game 19 - Racing Switch,Switch,2023,Racing,Sony Computer Entertainment,1.29,0.76,0.02,0.36,2.43,75.6,9.9,E10+
+20,Game 20 - Simulation XSX,XSX,2017,Simulation,Activision,0.83,1.11,0.18,0.11,2.22,88.2,9.9,T
+21,Game 21 - Misc PS5,PS5,2022,Misc,Square Enix,2.21,0.33,0.99,0.09,3.62,84.3,9.9,E10+
+22,Game 22 - Sports XOne,XOne,2021,Sports,Activision,0.37,0.46,0.21,0.22,1.27,53.9,5.5,E10+
+23,Game 23 - Action PS4,PS4,2015,Action,Electronic Arts,0.35,1.31,0.06,1.73,3.45,67.5,6.3,T
+24,Game 24 - Platform PC,PC,2019,Platform,Electronic Arts,2.26,0.24,0.24,1.36,4.1,58.9,6.2,E10+
+25,Game 25 - Simulation Switch,Switch,2021,Simulation,Ubisoft,1.3,1.79,0.04,0.1,3.23,82.7,8.7,E
+26,Game 26 - Shooter PC,PC,2023,Shooter,Ubisoft,1.28,1.16,0.08,0.46,2.99,79.5,6.9,M
+27,Game 27 - Misc PS4,PS4,2015,Misc,Square Enix,6.46,1.31,0.04,0.71,8.53,75.4,8.7,E10+
+28,Game 28 - Misc PS4,PS4,2021,Misc,Activision,3.19,0.36,0.58,0.56,4.69,89.2,9.9,E
+29,Game 29 - Misc PC,PC,2015,Misc,Sony Computer Entertainment,0.78,0.39,0.06,0.16,1.39,71.9,7.7,M
+30,Game 30 - Action PS5,PS5,2020,Action,Take-Two Interactive,1.32,1.87,0.19,1.57,4.95,76.7,9.9,E
+31,Game 31 - Racing PS4,PS4,2016,Racing,Ubisoft,1.87,0.35,0.05,0.6,2.86,73.0,8.4,E
+32,Game 32 - Shooter PS5,PS5,2024,Shooter,Electronic Arts,1.61,0.76,0.07,0.08,2.51,69.7,8.3,E10+
+33,Game 33 - Role-Playing PS4,PS4,2023,Role-Playing,Activision,1.24,0.24,0.23,0.54,2.24,63.9,6.6,E10+
+34,Game 34 - Role-Playing Switch,Switch,2021,Role-Playing,Ubisoft,1.06,0.26,0.28,0.64,2.25,87.5,9.9,E10+
+35,Game 35 - Sports PS5,PS5,2019,Sports,Ubisoft,0.25,0.32,0.34,0.61,1.53,79.2,9.9,M
+36,Game 36 - Simulation XSX,XSX,2016,Simulation,Electronic Arts,1.77,2.55,0.58,0.71,5.6,77.4,8.9,T
+37,Game 37 - Racing PS4,PS4,2022,Racing,Nintendo,0.46,0.65,0.41,0.4,1.92,99.0,7.1,T
+38,Game 38 - Sports Switch,Switch,2014,Sports,Nintendo,4.97,0.41,0.42,2.73,8.52,87.8,7.2,E
+39,Game 39 - Shooter PS5,PS5,2018,Shooter,Nintendo,0.49,1.62,0.31,0.46,2.87,76.3,6.7,M
+40,Game 40 - Sports Switch,Switch,2023,Sports,Ubisoft,8.53,1.54,0.02,0.44,10.54,83.1,9.6,E10+
+41,Game 41 - Role-Playing PS5,PS5,2016,Role-Playing,Capcom,0.45,0.73,0.34,0.87,2.39,60.4,5.5,E10+
+42,Game 42 - Sports XSX,XSX,2014,Sports,Electronic Arts,0.62,0.43,1.53,0.55,3.13,61.1,7.5,E10+
+43,Game 43 - Platform XOne,XOne,2020,Platform,Square Enix,8.35,2.3,0.03,0.23,10.9,99.0,8.8,E
+44,Game 44 - Shooter PC,PC,2019,Shooter,Nintendo,1.56,1.78,0.24,0.35,3.92,39.0,2.4,M
+45,Game 45 - Sports PS4,PS4,2016,Sports,Sony Computer Entertainment,1.55,0.47,1.3,0.18,3.5,71.7,7.4,E10+
+46,Game 46 - Platform PS5,PS5,2017,Platform,Activision,4.23,0.19,0.74,0.37,5.54,69.3,7.6,E10+
+47,Game 47 - Shooter PS5,PS5,2021,Shooter,Capcom,1.22,0.45,0.2,0.25,2.12,75.6,8.6,M
+48,Game 48 - Action PS4,PS4,2016,Action,Electronic Arts,4.88,0.24,2.38,0.05,7.55,83.3,9.2,T
+49,Game 49 - Simulation XSX,XSX,2016,Simulation,Capcom,1.32,0.44,0.14,0.22,2.13,67.2,8.0,E10+
+50,Game 50 - Role-Playing PS4,PS4,2013,Role-Playing,Square Enix,1.43,0.41,0.54,0.5,2.88,85.5,9.5,E10+
+51,Game 51 - Simulation XOne,XOne,2019,Simulation,Ubisoft,0.44,0.47,0.45,0.68,2.03,73.8,7.6,E10+
+52,Game 52 - Sports PS5,PS5,2016,Sports,Ubisoft,3.59,0.45,0.35,0.3,4.7,76.8,9.3,E
+53,Game 53 - Action Switch,Switch,2013,Action,Take-Two Interactive,2.28,1.85,0.88,0.38,5.39,89.0,8.4,E
+54,Game 54 - Simulation Switch,Switch,2013,Simulation,Activision,1.38,0.72,0.21,0.67,2.98,66.1,9.8,E
+55,Game 55 - Shooter PS5,PS5,2023,Shooter,Electronic Arts,0.37,0.24,0.74,0.81,2.16,81.8,9.1,T
+56,Game 56 - Shooter XSX,XSX,2022,Shooter,Sony Computer Entertainment,0.99,0.33,0.2,0.19,1.71,85.1,8.3,M
+57,Game 57 - Shooter Switch,Switch,2023,Shooter,Square Enix,0.44,0.59,0.3,0.21,1.54,63.2,6.7,M
+58,Game 58 - Sports XOne,XOne,2016,Sports,Take-Two Interactive,1.28,0.49,0.1,0.46,2.34,57.3,3.6,M
+59,Game 59 - Role-Playing XSX,XSX,2020,Role-Playing,Ubisoft,0.49,0.66,0.27,1.61,3.02,86.3,8.4,M
+60,Game 60 - Action PS4,PS4,2022,Action,Capcom,0.98,0.3,0.18,0.28,1.74,77.3,6.5,E
+61,Game 61 - Sports PS4,PS4,2015,Sports,Ubisoft,1.68,3.79,0.16,0.55,6.18,90.6,8.5,M
+62,Game 62 - Sports PS4,PS4,2017,Sports,Take-Two Interactive,1.25,0.83,0.21,0.17,2.46,75.2,8.3,T
+63,Game 63 - Misc XSX,XSX,2023,Misc,Nintendo,4.27,2.14,9.75,0.17,16.32,99.0,9.9,M
+64,Game 64 - Shooter PC,PC,2017,Shooter,Activision,8.93,0.36,0.07,0.2,9.57,63.6,5.6,M
+65,Game 65 - Role-Playing PS4,PS4,2017,Role-Playing,Ubisoft,0.47,0.95,0.28,2.4,4.1,89.6,8.1,T
+66,Game 66 - Racing PC,PC,2023,Racing,Sony Computer Entertainment,0.41,1.34,0.04,2.3,4.08,92.3,8.5,M
+67,Game 67 - Simulation Switch,Switch,2013,Simulation,Ubisoft,0.18,3.17,0.16,1.27,4.78,60.4,5.1,E
+68,Game 68 - Platform PC,PC,2013,Platform,Ubisoft,1.01,0.86,0.11,0.69,2.66,62.5,6.0,E
+69,Game 69 - Role-Playing XOne,XOne,2015,Role-Playing,Ubisoft,1.13,1.37,0.43,0.12,3.05,57.7,7.7,E10+
+70,Game 70 - Platform Switch,Switch,2014,Platform,Nintendo,3.49,0.97,4.73,1.03,10.22,99.0,9.9,E
+71,Game 71 - Role-Playing PC,PC,2018,Role-Playing,Nintendo,7.85,4.74,0.55,0.97,14.11,99.0,9.9,T
+72,Game 72 - Role-Playing XSX,XSX,2017,Role-Playing,Nintendo,0.38,1.63,2.62,0.06,4.69,65.2,3.5,M
+73,Game 73 - Racing PS4,PS4,2023,Racing,Sony Computer Entertainment,1.53,3.36,1.12,0.79,6.79,99.0,7.8,T
+74,Game 74 - Shooter PC,PC,2021,Shooter,Take-Two Interactive,0.18,0.77,0.29,0.36,1.6,48.4,4.7,E10+
+75,Game 75 - Role-Playing Switch,Switch,2015,Role-Playing,Sony Computer Entertainment,0.27,1.6,0.29,0.14,2.3,68.4,5.3,T
+76,Game 76 - Action XSX,XSX,2024,Action,Activision,0.94,2.13,0.06,0.61,3.73,71.1,5.9,M
+77,Game 77 - Sports XSX,XSX,2015,Sports,Ubisoft,0.9,0.29,0.09,0.11,1.39,96.4,9.7,E
+78,Game 78 - Action XSX,XSX,2016,Action,Capcom,0.5,1.01,0.16,0.29,1.97,81.3,9.3,T
+79,Game 79 - Racing XSX,XSX,2016,Racing,Ubisoft,0.59,0.46,0.13,0.04,1.22,54.3,7.5,T
+80,Game 80 - Sports PS4,PS4,2018,Sports,Square Enix,5.18,0.64,0.37,0.5,6.69,99.0,9.9,M
+81,Game 81 - Misc PS4,PS4,2023,Misc,Take-Two Interactive,0.88,0.31,0.03,0.45,1.67,64.3,4.3,E10+
+82,Game 82 - Racing PC,PC,2014,Racing,Nintendo,0.52,0.28,5.57,0.89,7.26,84.4,9.9,M
+83,Game 83 - Misc PS5,PS5,2014,Misc,Nintendo,1.08,0.35,4.58,0.63,6.63,70.8,6.8,E10+
+84,Game 84 - Racing XOne,XOne,2022,Racing,Square Enix,0.42,0.21,0.56,2.48,3.66,60.5,6.9,E
+85,Game 85 - Sports XSX,XSX,2013,Sports,Ubisoft,0.52,0.5,0.09,0.16,1.27,73.1,6.1,E10+
+86,Game 86 - Sports PS4,PS4,2019,Sports,Take-Two Interactive,1.31,0.78,0.14,0.15,2.38,67.8,7.9,E
+87,Game 87 - Racing PC,PC,2023,Racing,Take-Two Interactive,1.65,0.31,0.21,0.78,2.95,55.9,6.4,E
+88,Game 88 - Misc PC,PC,2023,Misc,Ubisoft,0.52,1.45,0.07,0.06,2.1,54.7,5.5,E10+
+89,Game 89 - Platform XOne,XOne,2021,Platform,Ubisoft,1.3,0.33,0.4,0.07,2.09,73.4,5.5,T
+90,Game 90 - Platform PS5,PS5,2023,Platform,Square Enix,0.52,0.86,0.07,0.25,1.7,85.5,7.7,T
+91,Game 91 - Misc Switch,Switch,2021,Misc,Square Enix,2.31,0.26,0.35,1.56,4.47,49.3,3.7,E
+92,Game 92 - Misc XOne,XOne,2019,Misc,Sony Computer Entertainment,1.78,0.67,0.29,0.2,2.94,76.9,7.5,M
+93,Game 93 - Simulation XSX,XSX,2023,Simulation,Capcom,3.21,1.06,0.28,0.24,4.79,73.7,6.7,T
+94,Game 94 - Simulation Switch,Switch,2023,Simulation,Activision,1.48,0.54,0.26,2.93,5.21,90.9,8.6,E
+95,Game 95 - Racing XOne,XOne,2016,Racing,Electronic Arts,3.32,0.54,0.02,0.13,4.02,55.6,5.0,M
+96,Game 96 - Sports PS5,PS5,2013,Sports,Activision,1.02,4.38,0.27,0.3,5.96,91.9,5.9,E
+97,Game 97 - Simulation PS5,PS5,2020,Simulation,Electronic Arts,1.27,1.77,0.03,1.15,4.22,82.5,7.6,E10+
+98,Game 98 - Sports PC,PC,2020,Sports,Square Enix,1.88,7.93,0.23,0.47,10.51,85.5,7.3,E10+
+99,Game 99 - Role-Playing PS5,PS5,2014,Role-Playing,Nintendo,2.29,0.35,0.8,0.23,3.67,83.1,8.8,E10+
+100,Game 100 - Role-Playing PS5,PS5,2013,Role-Playing,Capcom,2.82,0.49,0.13,0.14,3.59,71.8,7.7,T
+101,Game 101 - Simulation PS4,PS4,2020,Simulation,Activision,2.13,0.33,0.52,1.43,4.41,83.8,9.9,M
+102,Game 102 - Platform XSX,XSX,2015,Platform,Capcom,0.46,0.24,0.02,1.64,2.36,82.6,8.2,E10+
+103,Game 103 - Misc XSX,XSX,2023,Misc,Sony Computer Entertainment,1.32,0.27,3.46,0.42,5.47,82.3,9.3,M
+104,Game 104 - Simulation Switch,Switch,2017,Simulation,Sony Computer Entertainment,1.62,1.02,0.07,0.59,3.3,99.0,9.9,E10+
+105,Game 105 - Misc PS4,PS4,2017,Misc,Sony Computer Entertainment,9.84,0.98,0.06,0.65,11.53,93.7,9.9,M
+106,Game 106 - Shooter XOne,XOne,2015,Shooter,Activision,0.18,3.78,0.15,0.24,4.36,66.6,4.2,T
+107,Game 107 - Role-Playing XSX,XSX,2014,Role-Playing,Sony Computer Entertainment,2.28,0.88,0.04,0.1,3.3,72.6,9.8,E10+
+108,Game 108 - Racing XSX,XSX,2019,Racing,Capcom,0.77,0.18,0.14,0.28,1.37,40.4,4.0,E
+109,Game 109 - Platform PS5,PS5,2022,Platform,Square Enix,0.79,1.64,1.69,1.13,5.26,77.3,6.1,E
+110,Game 110 - Platform Switch,Switch,2013,Platform,Capcom,13.11,0.87,0.19,0.36,14.52,99.0,9.7,M
+111,Game 111 - Platform XOne,XOne,2021,Platform,Square Enix,0.56,0.47,0.18,0.21,1.43,64.3,6.6,T
+112,Game 112 - Sports XSX,XSX,2019,Sports,Ubisoft,0.77,3.68,0.01,1.1,5.56,96.1,6.5,E10+
+113,Game 113 - Platform PS4,PS4,2023,Platform,Take-Two Interactive,0.71,0.56,0.03,0.17,1.48,59.6,8.6,E10+
+114,Game 114 - Role-Playing PC,PC,2015,Role-Playing,Capcom,2.55,2.92,0.44,0.12,6.03,75.8,8.3,E
+115,Game 115 - Action XSX,XSX,2023,Action,Electronic Arts,0.29,1.67,0.14,0.25,2.36,83.2,9.0,E10+
+116,Game 116 - Simulation PS5,PS5,2013,Simulation,Activision,0.7,2.61,0.05,0.68,4.04,85.2,8.1,M
+117,Game 117 - Racing XSX,XSX,2020,Racing,Sony Computer Entertainment,1.39,0.23,0.56,0.31,2.48,68.7,8.4,M
+118,Game 118 - Platform XOne,XOne,2019,Platform,Ubisoft,0.49,0.2,0.03,0.67,1.4,57.4,8.4,M
+119,Game 119 - Simulation PS4,PS4,2024,Simulation,Nintendo,0.12,4.47,0.95,0.33,5.87,75.2,8.1,E
+120,Game 120 - Sports XOne,XOne,2023,Sports,Electronic Arts,0.96,2.47,0.21,0.43,4.07,73.8,7.3,E
+121,Game 121 - Sports PS4,PS4,2013,Sports,Sony Computer Entertainment,2.72,0.3,0.04,1.55,4.6,81.3,7.8,T
+122,Game 122 - Role-Playing PS5,PS5,2023,Role-Playing,Capcom,1.02,1.16,0.1,0.17,2.44,77.2,6.3,E
+123,Game 123 - Sports Switch,Switch,2024,Sports,Capcom,1.5,0.15,0.63,0.59,2.88,78.8,9.4,M
+124,Game 124 - Role-Playing XOne,XOne,2015,Role-Playing,Electronic Arts,5.29,2.26,0.02,0.1,7.67,77.8,7.8,M
+125,Game 125 - Action PS4,PS4,2022,Action,Ubisoft,1.68,0.4,0.23,0.17,2.48,67.6,4.7,E10+
+126,Game 126 - Sports XSX,XSX,2022,Sports,Electronic Arts,0.4,0.21,0.06,1.06,1.72,62.0,9.9,T
+127,Game 127 - Misc PS4,PS4,2022,Misc,Electronic Arts,1.64,0.98,0.07,0.74,3.43,70.0,7.2,E
+128,Game 128 - Platform XOne,XOne,2014,Platform,Take-Two Interactive,12.94,0.74,0.73,0.18,14.59,98.8,9.9,M
+129,Game 129 - Platform PS4,PS4,2014,Platform,Capcom,0.53,5.02,0.43,0.21,6.19,90.0,9.9,E10+
+130,Game 130 - Simulation XOne,XOne,2019,Simulation,Activision,1.86,0.17,0.08,0.29,2.4,73.9,8.3,T
+131,Game 131 - Misc PC,PC,2020,Misc,Capcom,1.19,0.22,0.29,0.68,2.38,81.5,9.8,E10+
+132,Game 132 - Misc PC,PC,2016,Misc,Take-Two Interactive,2.3,1.3,0.17,0.07,3.84,82.8,8.6,E
+133,Game 133 - Simulation XOne,XOne,2020,Simulation,Sony Computer Entertainment,1.31,0.23,0.05,1.05,2.65,74.8,8.5,E10+
+134,Game 134 - Action XOne,XOne,2018,Action,Capcom,1.03,0.84,0.57,0.22,2.66,76.5,7.0,T
+135,Game 135 - Sports XSX,XSX,2017,Sports,Take-Two Interactive,0.65,0.6,0.24,0.23,1.72,88.5,7.5,M
+136,Game 136 - Misc XOne,XOne,2021,Misc,Nintendo,0.83,0.53,4.18,0.45,5.98,94.3,7.2,T
+137,Game 137 - Sports PS4,PS4,2020,Sports,Square Enix,1.31,1.99,0.2,1.07,4.57,72.9,9.4,T
+138,Game 138 - Simulation PC,PC,2020,Simulation,Capcom,9.96,0.57,0.11,1.57,12.21,99.0,9.1,E
+139,Game 139 - Misc PS4,PS4,2019,Misc,Sony Computer Entertainment,1.31,1.24,0.04,0.29,2.88,63.7,5.2,T
+140,Game 140 - Racing XOne,XOne,2021,Racing,Capcom,0.97,1.03,1.18,0.14,3.32,88.4,8.5,M
+141,Game 141 - Racing XSX,XSX,2024,Racing,Take-Two Interactive,0.95,1.61,0.05,0.54,3.15,78.3,8.6,E10+
+142,Game 142 - Misc XOne,XOne,2016,Misc,Ubisoft,1.34,9.54,0.09,0.22,11.18,84.9,7.7,E
+143,Game 143 - Sports PC,PC,2014,Sports,Take-Two Interactive,0.53,2.69,1.01,0.21,4.44,68.9,7.6,T
+144,Game 144 - Sports PS5,PS5,2017,Sports,Capcom,0.58,1.54,0.23,0.08,2.43,93.4,9.9,M
+145,Game 145 - Sports PS4,PS4,2016,Sports,Ubisoft,0.54,0.56,0.26,0.51,1.87,81.6,9.9,M
+146,Game 146 - Misc PS5,PS5,2024,Misc,Nintendo,0.84,0.37,0.14,0.18,1.52,72.7,9.9,T
+147,Game 147 - Action XOne,XOne,2021,Action,Nintendo,0.6,1.02,0.72,1.21,3.55,99.0,9.1,M
+148,Game 148 - Role-Playing PC,PC,2014,Role-Playing,Capcom,0.61,2.33,0.42,2.33,5.69,88.4,8.3,E
+149,Game 149 - Misc Switch,Switch,2020,Misc,Capcom,1.81,2.48,0.49,0.61,5.39,93.6,9.9,E10+
+150,Game 150 - Role-Playing XOne,XOne,2017,Role-Playing,Nintendo,3.98,1.57,0.6,0.43,6.58,97.6,8.5,E10+
+151,Game 151 - Shooter PS4,PS4,2020,Shooter,Square Enix,1.45,0.55,0.19,1.32,3.51,79.3,8.0,M
+152,Game 152 - Action Switch,Switch,2015,Action,Activision,0.26,1.73,0.4,3.2,5.58,77.5,8.1,M
+153,Game 153 - Sports PS4,PS4,2021,Sports,Electronic Arts,1.28,3.96,0.16,0.49,5.9,89.1,9.2,E10+
+154,Game 154 - Sports Switch,Switch,2020,Sports,Square Enix,0.64,0.99,0.67,0.13,2.43,76.5,6.6,E10+
+155,Game 155 - Platform XOne,XOne,2022,Platform,Ubisoft,3.3,0.18,0.09,0.54,4.11,97.0,9.6,E
+156,Game 156 - Shooter Switch,Switch,2023,Shooter,Sony Computer Entertainment,0.57,5.37,0.03,0.04,6.02,87.3,8.0,T
+157,Game 157 - Shooter XOne,XOne,2016,Shooter,Activision,0.36,1.66,0.25,0.21,2.48,59.6,7.3,T
+158,Game 158 - Shooter Switch,Switch,2013,Shooter,Activision,1.92,0.74,1.69,0.13,4.47,60.6,5.0,E10+
+159,Game 159 - Simulation XSX,XSX,2013,Simulation,Ubisoft,0.96,1.04,0.14,0.52,2.66,60.3,8.2,T
+160,Game 160 - Misc XOne,XOne,2014,Misc,Capcom,0.92,2.5,0.28,0.58,4.28,85.4,9.2,T
+161,Game 161 - Sports XOne,XOne,2014,Sports,Square Enix,1.9,3.09,0.23,0.75,5.98,80.9,9.9,T
+162,Game 162 - Role-Playing PC,PC,2015,Role-Playing,Ubisoft,0.51,4.96,0.18,0.09,5.73,83.0,7.3,E
+163,Game 163 - Role-Playing PS4,PS4,2022,Role-Playing,Ubisoft,2.32,0.43,0.11,0.06,2.91,70.4,3.4,M
+164,Game 164 - Shooter XSX,XSX,2024,Shooter,Capcom,0.21,1.75,0.47,0.56,2.99,64.4,6.4,M
+165,Game 165 - Platform PC,PC,2021,Platform,Ubisoft,1.0,0.26,1.12,0.88,3.26,73.9,7.4,E10+
+166,Game 166 - Shooter XSX,XSX,2019,Shooter,Nintendo,1.23,0.11,0.55,0.19,2.07,62.1,5.8,M
+167,Game 167 - Misc Switch,Switch,2014,Misc,Nintendo,15.09,3.89,0.37,1.63,20.98,99.0,9.9,T
+168,Game 168 - Action PC,PC,2022,Action,Ubisoft,1.06,0.43,0.43,0.55,2.46,85.7,9.5,E
+169,Game 169 - Simulation PS5,PS5,2017,Simulation,Capcom,2.86,0.48,0.89,0.45,4.68,99.0,8.9,T
+170,Game 170 - Platform Switch,Switch,2014,Platform,Capcom,5.67,1.0,0.08,0.23,6.98,80.1,8.6,E10+
+171,Game 171 - Platform XOne,XOne,2018,Platform,Take-Two Interactive,1.69,0.46,0.18,3.13,5.46,99.0,9.9,E
+172,Game 172 - Racing PS5,PS5,2024,Racing,Square Enix,1.04,0.92,0.38,0.13,2.48,71.9,4.7,E10+
+173,Game 173 - Platform XOne,XOne,2020,Platform,Nintendo,1.49,1.56,0.41,1.78,5.24,65.8,4.4,E
+174,Game 174 - Misc XOne,XOne,2014,Misc,Take-Two Interactive,1.25,2.33,1.39,0.23,5.2,93.4,9.3,E10+
+175,Game 175 - Action Switch,Switch,2019,Action,Capcom,0.84,1.98,0.4,0.08,3.3,94.3,9.9,E
+176,Game 176 - Racing PS5,PS5,2023,Racing,Capcom,0.53,1.22,0.33,0.48,2.56,68.5,5.8,E10+
+177,Game 177 - Sports PS4,PS4,2021,Sports,Ubisoft,0.97,2.65,0.35,0.25,4.23,87.7,4.5,T
+178,Game 178 - Simulation XOne,XOne,2014,Simulation,Capcom,3.15,0.14,0.12,0.12,3.54,61.5,7.9,E
+179,Game 179 - Sports PC,PC,2017,Sports,Activision,0.63,1.16,0.17,0.59,2.55,76.0,5.7,E
+180,Game 180 - Platform Switch,Switch,2016,Platform,Electronic Arts,2.71,0.5,0.03,0.24,3.48,95.0,9.9,E
+181,Game 181 - Shooter XSX,XSX,2020,Shooter,Activision,0.71,0.58,0.13,2.94,4.34,83.3,9.0,M
+182,Game 182 - Misc Switch,Switch,2020,Misc,Square Enix,2.8,1.04,0.13,0.3,4.28,77.7,7.7,E10+
+183,Game 183 - Simulation PS5,PS5,2019,Simulation,Activision,2.07,0.86,0.44,0.34,3.71,78.4,4.8,T
+184,Game 184 - Role-Playing Switch,Switch,2017,Role-Playing,Electronic Arts,2.5,1.16,0.61,0.02,4.29,99.0,9.7,E10+
+185,Game 185 - Misc XOne,XOne,2017,Misc,Nintendo,3.03,0.29,1.53,0.13,4.98,72.5,9.9,M
+186,Game 186 - Simulation Switch,Switch,2020,Simulation,Activision,0.83,1.02,0.52,0.6,2.97,77.7,8.3,E10+
+187,Game 187 - Racing XOne,XOne,2020,Racing,Square Enix,11.06,0.77,0.23,1.05,13.12,99.0,9.9,M
+188,Game 188 - Sports PS5,PS5,2016,Sports,Square Enix,1.89,0.26,1.31,0.12,3.58,80.8,6.9,E10+
+189,Game 189 - Racing PS4,PS4,2024,Racing,Capcom,0.94,1.14,0.27,0.56,2.91,95.2,9.9,E10+
+190,Game 190 - Role-Playing XSX,XSX,2013,Role-Playing,Capcom,0.78,2.15,0.77,0.11,3.8,84.8,9.5,T
+191,Game 191 - Racing Switch,Switch,2020,Racing,Electronic Arts,0.74,3.24,0.15,0.42,4.55,77.0,7.7,E
+192,Game 192 - Simulation Switch,Switch,2024,Simulation,Nintendo,0.84,0.48,4.99,0.39,6.7,71.5,3.9,T
+193,Game 193 - Role-Playing XSX,XSX,2020,Role-Playing,Electronic Arts,0.53,0.22,1.32,1.01,3.08,67.9,9.9,M
+194,Game 194 - Platform XOne,XOne,2018,Platform,Electronic Arts,2.67,0.59,0.01,3.64,6.91,67.1,4.2,E10+
+195,Game 195 - Simulation XOne,XOne,2022,Simulation,Nintendo,2.78,9.39,3.87,0.65,16.69,99.0,9.9,E
+196,Game 196 - Misc PS5,PS5,2024,Misc,Sony Computer Entertainment,4.27,2.17,0.21,0.69,7.34,75.6,7.1,E
+197,Game 197 - Shooter XSX,XSX,2020,Shooter,Electronic Arts,0.18,0.74,0.06,0.12,1.1,74.4,9.5,T
+198,Game 198 - Misc PC,PC,2013,Misc,Nintendo,2.51,0.17,0.22,0.94,3.84,65.9,6.3,M
+199,Game 199 - Misc PS4,PS4,2018,Misc,Take-Two Interactive,1.73,0.31,0.21,0.1,2.35,67.5,7.2,E10+
+200,Game 200 - Sports PS5,PS5,2022,Sports,Square Enix,0.2,1.27,0.18,0.64,2.29,77.3,9.8,T
+201,Game 201 - Role-Playing PS5,PS5,2022,Role-Playing,Electronic Arts,1.13,0.53,0.21,0.63,2.51,75.6,7.6,E10+
+202,Game 202 - Sports Switch,Switch,2022,Sports,Capcom,0.5,0.42,0.03,2.12,3.07,61.2,5.1,T
+203,Game 203 - Simulation PS5,PS5,2020,Simulation,Ubisoft,0.49,2.0,0.13,1.28,3.9,69.7,7.4,M
+204,Game 204 - Action PC,PC,2017,Action,Capcom,0.43,6.99,0.04,0.5,7.97,93.6,9.9,T
+205,Game 205 - Simulation PS4,PS4,2022,Simulation,Take-Two Interactive,0.83,0.72,0.19,0.32,2.06,85.7,9.9,M
+206,Game 206 - Platform PC,PC,2020,Platform,Ubisoft,0.57,0.21,0.17,4.85,5.8,72.0,9.7,M
+207,Game 207 - Platform PS5,PS5,2014,Platform,Capcom,5.35,0.47,0.36,1.87,8.06,81.6,7.9,T
+208,Game 208 - Racing XSX,XSX,2024,Racing,Ubisoft,0.56,0.3,0.08,0.11,1.05,72.5,6.1,M
+209,Game 209 - Platform PS4,PS4,2013,Platform,Ubisoft,1.26,0.17,0.27,0.85,2.56,51.2,5.7,E
+210,Game 210 - Simulation Switch,Switch,2016,Simulation,Ubisoft,3.41,0.24,1.37,0.56,5.59,72.7,7.2,M
+211,Game 211 - Sports PS5,PS5,2023,Sports,Ubisoft,1.75,0.88,0.35,0.15,3.13,78.3,5.7,T
+212,Game 212 - Shooter PC,PC,2017,Shooter,Nintendo,0.89,0.33,0.3,1.27,2.8,88.7,9.8,E10+
+213,Game 213 - Racing PS4,PS4,2014,Racing,Activision,0.34,0.6,0.79,0.42,2.14,99.0,9.9,M
+214,Game 214 - Platform XOne,XOne,2016,Platform,Activision,1.21,0.6,0.22,0.32,2.34,83.2,9.8,T
+215,Game 215 - Racing Switch,Switch,2015,Racing,Ubisoft,0.46,0.22,0.02,0.61,1.3,59.4,2.7,M
+216,Game 216 - Misc XSX,XSX,2014,Misc,Take-Two Interactive,1.47,9.9,0.18,0.85,12.41,95.8,9.4,E10+
+217,Game 217 - Role-Playing PS4,PS4,2023,Role-Playing,Sony Computer Entertainment,5.01,1.22,0.25,1.01,7.51,77.0,9.2,E10+
+218,Game 218 - Racing Switch,Switch,2019,Racing,Electronic Arts,0.84,0.38,0.35,0.15,1.72,73.8,7.4,E
+219,Game 219 - Shooter XOne,XOne,2018,Shooter,Capcom,2.96,1.32,0.18,0.83,5.29,97.3,9.9,M
+220,Game 220 - Platform Switch,Switch,2014,Platform,Take-Two Interactive,1.01,0.22,0.05,0.27,1.55,65.8,6.3,T
+221,Game 221 - Action XSX,XSX,2022,Action,Take-Two Interactive,1.06,1.39,0.17,0.6,3.22,77.2,4.8,T
+222,Game 222 - Shooter PC,PC,2024,Shooter,Capcom,0.39,0.71,0.04,0.67,1.81,92.0,9.9,M
+223,Game 223 - Platform PC,PC,2015,Platform,Electronic Arts,0.81,3.64,0.22,0.26,4.93,72.5,6.8,E
+224,Game 224 - Misc PS4,PS4,2014,Misc,Capcom,0.68,0.97,0.22,0.37,2.24,79.7,9.8,E
+225,Game 225 - Role-Playing PS5,PS5,2020,Role-Playing,Square Enix,2.58,0.19,0.01,0.94,3.72,61.0,5.8,M
+226,Game 226 - Platform PC,PC,2019,Platform,Activision,0.31,0.14,0.35,0.79,1.58,66.2,2.7,E
+227,Game 227 - Platform XSX,XSX,2013,Platform,Ubisoft,0.58,1.21,0.03,0.44,2.26,74.3,8.3,M
+228,Game 228 - Simulation PS5,PS5,2016,Simulation,Capcom,1.13,0.31,0.77,0.31,2.52,74.7,6.1,M
+229,Game 229 - Racing PS4,PS4,2013,Racing,Take-Two Interactive,0.64,0.34,0.15,2.04,3.17,59.9,3.6,E10+
+230,Game 230 - Sports XOne,XOne,2020,Sports,Electronic Arts,4.35,0.66,0.08,1.04,6.14,75.0,9.9,E
+231,Game 231 - Sports PC,PC,2013,Sports,Nintendo,1.97,0.5,9.8,0.2,12.47,99.0,9.9,M
+232,Game 232 - Role-Playing PS5,PS5,2014,Role-Playing,Sony Computer Entertainment,7.35,7.8,0.19,0.35,15.69,99.0,8.9,T
+233,Game 233 - Sports Switch,Switch,2018,Sports,Sony Computer Entertainment,7.49,0.94,0.12,0.44,8.99,71.8,5.7,T
+234,Game 234 - Action Switch,Switch,2015,Action,Ubisoft,3.32,0.42,0.05,0.63,4.43,93.1,9.9,T
+235,Game 235 - Misc Switch,Switch,2014,Misc,Activision,2.71,0.38,0.03,1.65,4.78,75.7,7.2,E
+236,Game 236 - Action PS5,PS5,2016,Action,Take-Two Interactive,3.77,1.43,0.32,3.21,8.73,79.7,9.4,M
+237,Game 237 - Role-Playing PS4,PS4,2013,Role-Playing,Ubisoft,1.06,1.07,1.15,0.61,3.89,84.2,9.9,T
+238,Game 238 - Platform PC,PC,2024,Platform,Electronic Arts,0.69,0.35,0.05,0.05,1.15,97.0,8.0,E
+239,Game 239 - Simulation XSX,XSX,2021,Simulation,Take-Two Interactive,0.8,0.62,0.27,0.83,2.52,85.4,7.7,E
+240,Game 240 - Sports XSX,XSX,2024,Sports,Nintendo,0.85,1.09,0.55,1.84,4.31,84.5,9.6,M
+241,Game 241 - Action XSX,XSX,2020,Action,Nintendo,1.94,2.65,0.91,0.1,5.6,86.0,7.6,E10+
+242,Game 242 - Shooter XSX,XSX,2024,Shooter,Capcom,0.59,1.47,0.81,0.38,3.25,80.2,9.9,E10+
+243,Game 243 - Shooter PS4,PS4,2022,Shooter,Take-Two Interactive,1.27,11.04,0.36,0.06,12.74,99.0,9.9,T
+244,Game 244 - Role-Playing PS4,PS4,2022,Role-Playing,Ubisoft,3.63,1.61,0.16,0.11,5.5,78.5,6.6,M
+245,Game 245 - Misc XSX,XSX,2021,Misc,Capcom,0.56,1.47,1.36,0.55,3.94,63.5,7.0,E10+
+246,Game 246 - Shooter PS4,PS4,2019,Shooter,Sony Computer Entertainment,6.62,0.89,0.16,0.75,8.41,77.4,8.7,E10+
+247,Game 247 - Platform PS5,PS5,2020,Platform,Take-Two Interactive,0.89,1.25,0.06,0.24,2.43,83.5,7.8,E10+
+248,Game 248 - Shooter XSX,XSX,2019,Shooter,Take-Two Interactive,5.62,0.55,0.24,0.93,7.35,67.7,4.1,M
+249,Game 249 - Misc PC,PC,2015,Misc,Take-Two Interactive,0.22,2.89,0.09,4.75,7.96,79.1,8.2,E10+
+250,Game 250 - Shooter PS4,PS4,2014,Shooter,Electronic Arts,4.67,6.09,2.18,1.23,14.18,99.0,9.9,E10+
+251,Game 251 - Racing PS4,PS4,2021,Racing,Activision,2.18,0.47,0.07,0.37,3.09,74.1,6.7,E
+252,Game 252 - Racing Switch,Switch,2019,Racing,Electronic Arts,2.01,2.13,0.2,1.61,5.95,68.2,6.5,M
+253,Game 253 - Platform PC,PC,2017,Platform,Nintendo,0.49,0.13,0.67,0.33,1.61,91.4,9.9,M
+254,Game 254 - Shooter XOne,XOne,2015,Shooter,Sony Computer Entertainment,0.36,5.23,0.8,0.66,7.04,81.4,6.7,E10+
+255,Game 255 - Shooter PS5,PS5,2021,Shooter,Take-Two Interactive,0.69,2.43,1.77,1.72,6.61,77.4,6.1,M
+256,Game 256 - Misc PS4,PS4,2019,Misc,Sony Computer Entertainment,2.3,0.28,0.27,0.63,3.49,71.4,4.7,E
+257,Game 257 - Misc Switch,Switch,2015,Misc,Nintendo,4.18,1.2,0.18,0.05,5.61,80.9,9.9,M
+258,Game 258 - Misc PC,PC,2018,Misc,Take-Two Interactive,5.27,0.52,0.09,0.59,6.46,70.9,7.5,E
+259,Game 259 - Role-Playing PS5,PS5,2014,Role-Playing,Square Enix,2.15,2.79,0.16,0.3,5.41,70.3,5.8,T
+260,Game 260 - Action PC,PC,2024,Action,Electronic Arts,0.8,1.18,0.55,0.16,2.69,93.3,8.9,T
+261,Game 261 - Platform XSX,XSX,2018,Platform,Capcom,0.98,0.39,0.01,0.89,2.27,83.4,7.9,T
+262,Game 262 - Misc XOne,XOne,2022,Misc,Take-Two Interactive,1.07,1.37,0.03,0.22,2.69,84.9,6.6,E
+263,Game 263 - Role-Playing PS4,PS4,2022,Role-Playing,Activision,1.34,0.21,0.32,0.35,2.23,55.1,7.3,E
+264,Game 264 - Shooter PC,PC,2020,Shooter,Ubisoft,0.48,0.36,0.23,1.16,2.24,62.3,6.3,E10+
+265,Game 265 - Simulation XSX,XSX,2017,Simulation,Square Enix,1.54,1.64,0.23,0.25,3.66,67.4,6.9,T
+266,Game 266 - Shooter Switch,Switch,2019,Shooter,Take-Two Interactive,0.34,0.04,0.31,0.91,1.61,44.9,3.0,M
+267,Game 267 - Simulation XOne,XOne,2013,Simulation,Ubisoft,1.86,6.41,0.19,0.18,8.63,85.1,9.9,T
+268,Game 268 - Action XSX,XSX,2016,Action,Nintendo,0.52,0.37,0.41,0.14,1.45,74.4,9.9,M
+269,Game 269 - Role-Playing PS5,PS5,2017,Role-Playing,Ubisoft,1.38,0.64,0.13,0.08,2.22,85.0,8.4,M
+270,Game 270 - Action PS4,PS4,2024,Action,Capcom,0.83,19.95,0.26,0.17,21.22,99.0,9.9,E10+
+271,Game 271 - Role-Playing PS5,PS5,2021,Role-Playing,Square Enix,1.12,0.19,0.55,0.19,2.06,96.6,9.9,T
+272,Game 272 - Racing Switch,Switch,2019,Racing,Electronic Arts,0.64,2.95,0.2,0.86,4.65,85.1,7.2,E
+273,Game 273 - Action XSX,XSX,2014,Action,Capcom,0.53,2.29,0.12,0.25,3.19,64.9,7.1,M
+274,Game 274 - Platform Switch,Switch,2024,Platform,Square Enix,7.87,0.28,0.19,1.51,9.85,88.7,9.6,E10+
+275,Game 275 - Shooter XOne,XOne,2013,Shooter,Square Enix,0.35,1.26,0.15,0.99,2.73,89.7,9.9,M
+276,Game 276 - Simulation PS5,PS5,2014,Simulation,Take-Two Interactive,1.79,1.13,0.23,0.26,3.41,80.9,7.6,E10+
+277,Game 277 - Sports PS4,PS4,2022,Sports,Square Enix,1.18,3.06,0.05,1.15,5.45,96.7,9.5,E10+
+278,Game 278 - Shooter Switch,Switch,2017,Shooter,Square Enix,0.12,0.45,0.87,0.36,1.8,61.6,5.4,M
+279,Game 279 - Racing PS5,PS5,2014,Racing,Activision,2.32,1.41,0.14,0.25,4.13,73.5,6.0,E
+280,Game 280 - Sports Switch,Switch,2018,Sports,Take-Two Interactive,5.03,0.59,0.79,1.68,8.1,98.2,9.2,T
+281,Game 281 - Shooter PS5,PS5,2017,Shooter,Activision,1.5,0.8,0.06,0.51,2.87,61.6,7.9,T
+282,Game 282 - Role-Playing PS5,PS5,2015,Role-Playing,Electronic Arts,0.63,1.0,0.26,0.28,2.17,81.4,7.4,E10+
+283,Game 283 - Simulation XSX,XSX,2023,Simulation,Take-Two Interactive,2.39,0.21,0.21,2.56,5.37,68.7,5.9,M
+284,Game 284 - Simulation PS5,PS5,2020,Simulation,Electronic Arts,1.67,0.98,0.28,0.6,3.53,84.7,9.9,E10+
+285,Game 285 - Misc PC,PC,2022,Misc,Ubisoft,1.51,0.64,0.41,2.46,5.02,78.5,6.4,E
+286,Game 286 - Shooter XOne,XOne,2020,Shooter,Ubisoft,3.03,0.73,0.01,0.86,4.62,72.8,7.1,E10+
+287,Game 287 - Action PS4,PS4,2017,Action,Take-Two Interactive,1.39,0.99,0.43,0.24,3.05,82.3,7.8,E
+288,Game 288 - Shooter PC,PC,2020,Shooter,Square Enix,2.09,1.51,0.06,1.09,4.76,73.1,8.5,M
+289,Game 289 - Sports XSX,XSX,2022,Sports,Take-Two Interactive,1.44,5.15,0.14,0.26,6.99,83.7,7.9,E10+
+290,Game 290 - Role-Playing Switch,Switch,2020,Role-Playing,Nintendo,5.56,0.41,0.21,0.32,6.49,94.4,9.9,E
+291,Game 291 - Shooter XOne,XOne,2013,Shooter,Activision,0.9,0.69,0.2,1.18,2.97,64.8,6.8,T
+292,Game 292 - Simulation PC,PC,2021,Simulation,Capcom,2.65,1.35,0.23,1.0,5.24,48.0,5.8,T
+293,Game 293 - Racing XOne,XOne,2019,Racing,Ubisoft,0.52,0.13,0.34,1.45,2.44,73.2,8.8,E10+
+294,Game 294 - Action XOne,XOne,2014,Action,Take-Two Interactive,5.01,3.05,1.32,0.77,10.15,91.2,6.7,M
+295,Game 295 - Platform PS4,PS4,2017,Platform,Ubisoft,0.78,0.35,2.49,0.31,3.93,79.3,8.8,T
+296,Game 296 - Shooter XOne,XOne,2018,Shooter,Activision,1.04,4.46,0.09,0.45,6.04,73.2,5.3,M
+297,Game 297 - Platform PC,PC,2022,Platform,Activision,0.54,0.79,0.11,0.18,1.63,56.4,5.5,E
+298,Game 298 - Platform XOne,XOne,2015,Platform,Take-Two Interactive,0.22,1.75,0.2,0.09,2.26,70.8,6.0,E
+299,Game 299 - Platform PC,PC,2013,Platform,Take-Two Interactive,1.38,3.13,0.02,0.41,4.94,78.0,8.8,M
+300,Game 300 - Role-Playing XOne,XOne,2018,Role-Playing,Sony Computer Entertainment,1.24,0.39,0.13,0.17,1.91,86.7,8.7,E10+
+301,Game 301 - Sports PS5,PS5,2015,Sports,Activision,6.69,0.77,0.08,0.08,7.62,63.6,4.0,E
+302,Game 302 - Shooter XOne,XOne,2023,Shooter,Nintendo,1.31,1.36,0.11,0.9,3.68,71.6,7.4,M
+303,Game 303 - Role-Playing Switch,Switch,2015,Role-Playing,Square Enix,5.01,2.01,0.13,0.15,7.31,58.8,4.8,T
+304,Game 304 - Role-Playing PS5,PS5,2013,Role-Playing,Capcom,0.81,0.31,0.16,0.4,1.67,70.6,6.1,E10+
+305,Game 305 - Sports XOne,XOne,2022,Sports,Capcom,1.18,1.27,0.05,1.51,4.02,76.8,7.7,M
+306,Game 306 - Simulation PC,PC,2021,Simulation,Sony Computer Entertainment,2.03,1.03,0.58,0.49,4.13,70.9,7.6,T
+307,Game 307 - Simulation XOne,XOne,2018,Simulation,Sony Computer Entertainment,0.32,0.91,0.18,0.3,1.71,71.9,4.4,E10+
+308,Game 308 - Misc XSX,XSX,2021,Misc,Square Enix,0.58,0.9,0.22,0.13,1.83,88.8,7.6,E10+
+309,Game 309 - Sports PS5,PS5,2017,Sports,Activision,2.64,1.26,0.08,2.17,6.15,68.0,8.2,E
+310,Game 310 - Simulation PC,PC,2021,Simulation,Take-Two Interactive,2.72,0.42,0.98,0.29,4.4,82.3,8.6,E
+311,Game 311 - Shooter PC,PC,2014,Shooter,Ubisoft,0.87,1.84,0.48,0.06,3.26,92.2,6.7,T
+312,Game 312 - Simulation XOne,XOne,2019,Simulation,Activision,2.81,2.53,0.05,0.24,5.63,68.0,6.5,E
+313,Game 313 - Simulation PS5,PS5,2013,Simulation,Take-Two Interactive,0.73,1.79,0.89,1.49,4.89,73.0,7.0,E10+
+314,Game 314 - Platform PS4,PS4,2016,Platform,Take-Two Interactive,0.19,0.37,0.59,1.85,2.99,61.2,5.2,E10+
+315,Game 315 - Racing PS4,PS4,2013,Racing,Sony Computer Entertainment,1.95,2.17,0.07,1.12,5.31,74.9,7.5,M
+316,Game 316 - Racing PS4,PS4,2015,Racing,Activision,1.73,0.82,0.11,0.33,2.99,74.9,6.9,E
+317,Game 317 - Simulation XOne,XOne,2024,Simulation,Activision,0.77,4.05,0.36,0.27,5.46,89.3,8.4,E10+
+318,Game 318 - Action XSX,XSX,2013,Action,Electronic Arts,3.23,1.18,0.16,0.58,5.15,61.5,4.5,M
+319,Game 319 - Role-Playing PS5,PS5,2014,Role-Playing,Square Enix,0.3,0.94,1.47,3.43,6.14,89.9,9.7,M
+320,Game 320 - Misc PS5,PS5,2013,Misc,Electronic Arts,0.17,0.48,0.07,0.2,0.91,69.8,6.3,T
+321,Game 321 - Simulation XSX,XSX,2014,Simulation,Electronic Arts,0.14,1.73,0.05,0.47,2.39,99.0,8.5,E10+
+322,Game 322 - Action Switch,Switch,2024,Action,Sony Computer Entertainment,0.08,0.62,0.69,2.61,3.99,63.2,7.1,T
+323,Game 323 - Platform XOne,XOne,2022,Platform,Nintendo,0.63,0.74,17.57,0.08,19.02,99.0,9.9,M
+324,Game 324 - Platform PS5,PS5,2023,Platform,Activision,2.96,0.9,0.27,0.25,4.38,82.0,7.7,E
+325,Game 325 - Racing Switch,Switch,2021,Racing,Electronic Arts,1.86,0.57,0.29,0.36,3.07,89.7,8.9,E
+326,Game 326 - Simulation XSX,XSX,2023,Simulation,Nintendo,0.17,2.89,0.25,0.19,3.5,69.9,9.0,E10+
+327,Game 327 - Misc XOne,XOne,2018,Misc,Nintendo,0.12,18.87,2.61,0.46,22.06,99.0,9.9,E
+328,Game 328 - Sports XOne,XOne,2022,Sports,Electronic Arts,1.68,1.56,0.36,0.4,4.01,75.6,7.3,M
+329,Game 329 - Action PS5,PS5,2021,Action,Take-Two Interactive,0.82,2.54,0.37,0.02,3.76,85.4,8.8,M
+330,Game 330 - Role-Playing PC,PC,2024,Role-Playing,Capcom,0.98,0.56,0.71,0.95,3.19,67.1,7.3,E10+
+331,Game 331 - Role-Playing PC,PC,2014,Role-Playing,Activision,0.38,0.21,0.09,0.87,1.54,84.5,9.2,E10+
+332,Game 332 - Misc PS4,PS4,2013,Misc,Sony Computer Entertainment,4.13,2.74,0.09,1.13,8.09,95.8,9.9,T
+333,Game 333 - Racing PS4,PS4,2021,Racing,Ubisoft,3.28,1.66,0.28,1.07,6.3,82.3,6.9,E10+
+334,Game 334 - Simulation Switch,Switch,2013,Simulation,Ubisoft,0.85,0.39,0.08,0.32,1.64,63.8,5.9,T
+335,Game 335 - Racing XOne,XOne,2023,Racing,Nintendo,0.15,1.01,0.74,0.16,2.06,82.0,9.6,M
+336,Game 336 - Shooter XOne,XOne,2019,Shooter,Take-Two Interactive,0.2,0.38,0.07,0.14,0.8,81.6,7.9,E10+
+337,Game 337 - Simulation PC,PC,2018,Simulation,Square Enix,0.77,0.11,0.39,0.11,1.38,73.5,7.8,T
+338,Game 338 - Simulation XSX,XSX,2021,Simulation,Take-Two Interactive,3.9,0.22,0.0,0.44,4.57,99.0,9.9,M
+339,Game 339 - Platform PS4,PS4,2019,Platform,Electronic Arts,1.23,0.5,0.48,0.14,2.36,80.4,8.8,T
+340,Game 340 - Misc Switch,Switch,2014,Misc,Take-Two Interactive,2.89,12.93,0.29,0.22,16.33,99.0,7.2,E
+341,Game 341 - Misc XOne,XOne,2020,Misc,Ubisoft,0.5,0.54,0.1,0.43,1.57,63.3,8.0,E10+
+342,Game 342 - Simulation PS5,PS5,2020,Simulation,Take-Two Interactive,1.0,0.81,0.12,0.43,2.37,84.6,7.2,E
+343,Game 343 - Racing PC,PC,2017,Racing,Square Enix,0.52,0.6,0.04,0.16,1.32,66.9,8.0,E
+344,Game 344 - Platform PS4,PS4,2021,Platform,Take-Two Interactive,1.3,0.99,0.51,0.32,3.13,80.9,7.9,T
+345,Game 345 - Role-Playing PS4,PS4,2013,Role-Playing,Capcom,1.3,0.46,0.01,0.32,2.09,91.3,9.9,T
+346,Game 346 - Sports PS4,PS4,2018,Sports,Take-Two Interactive,2.63,2.82,0.2,0.45,6.1,74.8,7.0,E10+
+347,Game 347 - Action Switch,Switch,2023,Action,Activision,1.85,2.73,0.16,0.23,4.97,79.9,8.9,E10+
+348,Game 348 - Racing XOne,XOne,2014,Racing,Capcom,0.24,0.08,0.1,0.11,0.52,64.9,6.3,T
+349,Game 349 - Racing Switch,Switch,2018,Racing,Square Enix,0.64,3.5,0.27,0.5,4.9,87.3,7.0,M
+350,Game 350 - Shooter PS5,PS5,2024,Shooter,Nintendo,2.83,0.76,1.64,0.13,5.36,62.1,7.4,T
+351,Game 351 - Platform XSX,XSX,2017,Platform,Electronic Arts,1.46,0.33,0.06,1.13,2.99,61.7,8.6,M
+352,Game 352 - Simulation PC,PC,2022,Simulation,Sony Computer Entertainment,0.41,1.55,0.12,0.67,2.75,69.0,6.7,M
+353,Game 353 - Simulation PC,PC,2014,Simulation,Sony Computer Entertainment,1.04,0.3,0.45,0.22,2.01,71.3,5.6,T
+354,Game 354 - Simulation PS4,PS4,2024,Simulation,Activision,0.08,0.68,3.33,0.81,4.89,79.5,7.6,E10+
+355,Game 355 - Racing PS4,PS4,2024,Racing,Take-Two Interactive,1.02,1.41,0.04,1.12,3.6,85.8,9.7,E
+356,Game 356 - Misc Switch,Switch,2015,Misc,Ubisoft,1.55,0.83,0.41,0.66,3.46,72.7,6.4,T
+357,Game 357 - Sports XOne,XOne,2016,Sports,Electronic Arts,1.11,3.85,0.04,0.08,5.09,82.2,8.3,T
+358,Game 358 - Simulation PS5,PS5,2018,Simulation,Nintendo,1.19,1.04,0.56,1.63,4.43,59.6,4.7,M
+359,Game 359 - Role-Playing XSX,XSX,2014,Role-Playing,Electronic Arts,0.9,0.16,0.15,1.94,3.15,76.5,8.0,M
+360,Game 360 - Simulation XSX,XSX,2019,Simulation,Square Enix,0.28,0.44,0.12,0.27,1.11,87.6,9.6,E
+361,Game 361 - Racing PS5,PS5,2020,Racing,Electronic Arts,0.33,1.05,0.33,1.15,2.86,94.7,7.9,E10+
+362,Game 362 - Racing PC,PC,2021,Racing,Activision,0.44,0.23,0.14,0.59,1.4,84.7,8.4,T
+363,Game 363 - Platform PS5,PS5,2014,Platform,Nintendo,0.73,0.95,0.27,2.97,4.92,60.6,6.3,T
+364,Game 364 - Role-Playing XOne,XOne,2018,Role-Playing,Activision,7.57,0.82,0.15,0.26,8.79,85.4,9.9,T
+365,Game 365 - Misc XOne,XOne,2017,Misc,Electronic Arts,0.11,3.79,0.03,0.28,4.22,73.3,8.2,T
+366,Game 366 - Misc PC,PC,2023,Misc,Activision,0.2,1.3,2.09,0.09,3.68,79.6,7.0,M
+367,Game 367 - Shooter Switch,Switch,2022,Shooter,Activision,1.53,0.83,0.09,0.6,3.05,97.8,9.5,T
+368,Game 368 - Racing PS5,PS5,2013,Racing,Nintendo,2.05,0.22,0.23,0.59,3.1,94.0,9.9,E
+369,Game 369 - Misc PS4,PS4,2022,Misc,Sony Computer Entertainment,1.46,1.64,0.04,1.35,4.49,89.6,8.3,E10+
+370,Game 370 - Action Switch,Switch,2023,Action,Capcom,0.62,1.07,0.11,0.34,2.15,99.0,9.5,M
+371,Game 371 - Misc PC,PC,2016,Misc,Capcom,0.7,0.43,0.45,0.31,1.88,66.0,8.6,E10+
+372,Game 372 - Simulation XOne,XOne,2024,Simulation,Electronic Arts,4.14,0.45,0.02,1.01,5.61,73.0,8.5,E
+373,Game 373 - Simulation PS5,PS5,2020,Simulation,Square Enix,0.14,2.0,0.04,0.76,2.95,76.1,6.2,E10+
+374,Game 374 - Racing PS5,PS5,2018,Racing,Activision,0.67,1.63,0.21,0.66,3.16,99.0,7.6,M
+375,Game 375 - Racing PC,PC,2015,Racing,Square Enix,5.04,0.91,0.06,0.1,6.11,79.9,9.4,M
+376,Game 376 - Shooter Switch,Switch,2016,Shooter,Take-Two Interactive,0.88,3.71,0.03,0.36,4.99,64.9,7.0,E10+
+377,Game 377 - Misc PS4,PS4,2016,Misc,Capcom,2.43,0.54,0.01,0.45,3.42,82.1,8.8,T
+378,Game 378 - Action PS4,PS4,2019,Action,Ubisoft,3.44,0.28,0.42,1.21,5.35,59.4,6.4,E10+
+379,Game 379 - Role-Playing PS5,PS5,2022,Role-Playing,Take-Two Interactive,0.6,0.75,0.28,0.23,1.86,65.6,6.6,M
+380,Game 380 - Role-Playing PS5,PS5,2021,Role-Playing,Capcom,0.34,0.28,0.42,0.12,1.15,80.3,8.7,E10+
+381,Game 381 - Misc XSX,XSX,2013,Misc,Capcom,0.18,0.42,0.77,0.14,1.5,67.4,7.4,E
+382,Game 382 - Simulation XSX,XSX,2016,Simulation,Sony Computer Entertainment,2.19,0.64,0.09,1.53,4.44,99.0,9.9,M
+383,Game 383 - Action PS4,PS4,2020,Action,Ubisoft,1.09,0.36,0.07,0.62,2.14,79.3,9.9,E10+
+384,Game 384 - Action XOne,XOne,2019,Action,Electronic Arts,1.92,0.18,0.65,0.14,2.88,71.2,7.5,T
+385,Game 385 - Racing XOne,XOne,2018,Racing,Square Enix,7.36,18.36,0.38,0.31,26.4,99.0,9.9,E
+386,Game 386 - Action XSX,XSX,2018,Action,Sony Computer Entertainment,0.73,4.93,0.24,0.61,6.5,91.0,9.7,M
+387,Game 387 - Platform PS4,PS4,2021,Platform,Capcom,2.31,0.44,0.09,0.12,2.97,81.2,9.3,M
+388,Game 388 - Shooter Switch,Switch,2014,Shooter,Activision,1.58,4.37,0.18,0.72,6.85,70.6,6.5,E10+
+389,Game 389 - Racing XOne,XOne,2015,Racing,Take-Two Interactive,2.0,1.91,0.13,0.34,4.39,60.6,5.5,T
+390,Game 390 - Platform Switch,Switch,2013,Platform,Nintendo,6.09,3.64,1.34,0.97,12.04,94.2,8.4,E
+391,Game 391 - Racing PS5,PS5,2021,Racing,Capcom,2.01,1.25,0.33,0.22,3.81,51.8,6.8,E10+
+392,Game 392 - Role-Playing PS5,PS5,2022,Role-Playing,Take-Two Interactive,0.62,0.35,0.42,0.25,1.64,86.0,9.5,M
+393,Game 393 - Platform PS5,PS5,2022,Platform,Ubisoft,1.98,0.21,0.79,0.48,3.46,72.5,7.5,M
+394,Game 394 - Simulation Switch,Switch,2020,Simulation,Ubisoft,0.17,1.23,0.05,0.1,1.55,54.8,7.2,E
+395,Game 395 - Racing XOne,XOne,2019,Racing,Electronic Arts,0.53,3.8,0.1,0.07,4.49,65.6,8.4,M
+396,Game 396 - Action PC,PC,2017,Action,Capcom,0.86,0.47,0.22,0.61,2.16,87.7,9.9,T
+397,Game 397 - Action PC,PC,2015,Action,Capcom,0.7,0.22,0.11,0.48,1.5,61.4,4.7,E10+
+398,Game 398 - Sports PS5,PS5,2022,Sports,Nintendo,1.41,0.78,0.77,0.17,3.13,73.5,6.0,E
+399,Game 399 - Action PS5,PS5,2018,Action,Capcom,2.44,2.31,0.02,0.15,4.91,61.9,5.2,E10+
+400,Game 400 - Platform PS5,PS5,2019,Platform,Sony Computer Entertainment,1.84,0.38,0.06,0.27,2.55,77.6,7.9,E10+
+401,Game 401 - Action PC,PC,2021,Action,Activision,0.49,0.98,0.1,0.28,1.84,93.8,9.9,T
+402,Game 402 - Racing Switch,Switch,2021,Racing,Capcom,0.27,1.88,0.49,0.12,2.75,85.3,9.9,E10+
+403,Game 403 - Role-Playing XOne,XOne,2021,Role-Playing,Capcom,0.33,0.33,0.62,0.48,1.76,80.1,8.5,M
+404,Game 404 - Racing Switch,Switch,2022,Racing,Ubisoft,1.48,0.22,0.65,1.18,3.53,74.3,7.4,E10+
+405,Game 405 - Sports PS5,PS5,2021,Sports,Ubisoft,0.22,1.37,0.37,0.35,2.3,88.1,8.3,M
+406,Game 406 - Misc PS5,PS5,2024,Misc,Ubisoft,1.76,0.3,0.18,0.31,2.54,77.8,7.2,T
+407,Game 407 - Simulation PC,PC,2020,Simulation,Take-Two Interactive,0.88,1.87,0.11,0.07,2.93,96.9,9.9,M
+408,Game 408 - Misc Switch,Switch,2014,Misc,Ubisoft,0.27,1.63,0.1,0.48,2.49,78.5,7.5,E10+
+409,Game 409 - Racing XSX,XSX,2017,Racing,Activision,0.46,0.41,0.06,0.16,1.09,71.4,6.1,E
+410,Game 410 - Shooter XOne,XOne,2020,Shooter,Take-Two Interactive,1.98,3.62,0.09,0.47,6.16,88.3,9.5,M
+411,Game 411 - Simulation PC,PC,2016,Simulation,Sony Computer Entertainment,1.08,1.72,0.33,0.11,3.23,86.9,9.9,M
+412,Game 412 - Misc Switch,Switch,2014,Misc,Activision,0.47,0.85,0.42,0.3,2.03,86.9,9.9,T
+413,Game 413 - Action PS5,PS5,2023,Action,Sony Computer Entertainment,0.91,0.41,0.26,1.51,3.1,73.4,9.5,T
+414,Game 414 - Shooter PS4,PS4,2018,Shooter,Square Enix,0.26,1.64,0.09,2.05,4.04,99.0,8.8,E10+
+415,Game 415 - Role-Playing PS4,PS4,2021,Role-Playing,Nintendo,0.58,1.93,0.46,0.35,3.33,77.0,4.8,T
+416,Game 416 - Simulation XSX,XSX,2023,Simulation,Capcom,0.99,0.41,0.1,1.56,3.06,61.0,7.3,T
+417,Game 417 - Racing XOne,XOne,2023,Racing,Ubisoft,0.76,0.62,0.47,0.52,2.37,81.6,9.6,E
+418,Game 418 - Sports PS4,PS4,2015,Sports,Nintendo,0.72,0.44,0.2,0.16,1.52,99.0,9.9,E10+
+419,Game 419 - Action PS5,PS5,2020,Action,Square Enix,0.26,0.22,0.33,0.64,1.44,79.5,7.6,T
+420,Game 420 - Misc PC,PC,2013,Misc,Nintendo,0.88,1.14,0.82,0.04,2.87,73.0,6.0,M
+421,Game 421 - Shooter Switch,Switch,2017,Shooter,Take-Two Interactive,1.19,16.2,0.29,0.27,17.95,99.0,9.9,E10+
+422,Game 422 - Simulation PC,PC,2021,Simulation,Activision,1.52,1.5,2.17,0.12,5.31,86.3,7.2,E10+
+423,Game 423 - Sports XOne,XOne,2018,Sports,Electronic Arts,1.74,0.33,0.11,0.27,2.45,86.6,9.9,T
+424,Game 424 - Simulation PC,PC,2024,Simulation,Ubisoft,0.29,0.86,0.08,0.1,1.34,70.1,6.5,T
+425,Game 425 - Racing PS4,PS4,2022,Racing,Ubisoft,11.32,1.26,0.04,0.21,12.83,99.0,9.9,T
+426,Game 426 - Platform PS5,PS5,2021,Platform,Square Enix,0.2,0.12,1.74,0.54,2.61,64.8,7.3,M
+427,Game 427 - Platform PS4,PS4,2015,Platform,Electronic Arts,0.07,0.82,0.27,0.93,2.09,62.0,6.3,T
+428,Game 428 - Racing XSX,XSX,2013,Racing,Sony Computer Entertainment,0.4,1.06,0.06,0.24,1.76,61.6,7.1,M
+429,Game 429 - Sports XSX,XSX,2017,Sports,Capcom,2.36,0.65,0.19,0.09,3.29,73.0,7.2,M
+430,Game 430 - Action XOne,XOne,2023,Action,Ubisoft,13.75,0.27,1.07,1.0,16.08,99.0,9.9,M
+431,Game 431 - Sports PC,PC,2023,Sports,Nintendo,1.45,1.21,0.69,1.25,4.6,92.4,8.3,E
+432,Game 432 - Misc XSX,XSX,2019,Misc,Activision,0.27,0.67,0.07,0.35,1.35,87.6,8.1,M
+433,Game 433 - Shooter PC,PC,2018,Shooter,Ubisoft,0.96,0.87,0.51,0.04,2.37,67.5,7.1,T
+434,Game 434 - Role-Playing PS5,PS5,2015,Role-Playing,Capcom,3.32,0.5,0.02,0.68,4.52,71.4,5.4,E10+
+435,Game 435 - Racing PC,PC,2024,Racing,Square Enix,0.54,0.68,0.09,0.04,1.35,83.5,9.9,E10+
+436,Game 436 - Sports Switch,Switch,2023,Sports,Sony Computer Entertainment,1.92,0.26,0.14,0.37,2.69,82.6,9.3,E
+437,Game 437 - Simulation Switch,Switch,2014,Simulation,Take-Two Interactive,0.48,0.89,0.32,1.58,3.26,85.0,9.7,E
+438,Game 438 - Sports PS4,PS4,2015,Sports,Activision,1.09,3.36,0.3,0.16,4.9,96.6,9.9,M
+439,Game 439 - Simulation Switch,Switch,2023,Simulation,Electronic Arts,0.64,0.51,0.26,0.58,2.0,76.4,8.1,T
+440,Game 440 - Simulation PC,PC,2021,Simulation,Electronic Arts,5.47,2.39,0.23,0.94,9.04,75.7,8.2,E10+
+441,Game 441 - Simulation PS4,PS4,2021,Simulation,Activision,6.11,0.66,0.07,0.19,7.02,71.0,5.9,E10+
+442,Game 442 - Action XSX,XSX,2023,Action,Capcom,0.69,0.2,0.19,0.91,1.99,63.1,8.6,M
+443,Game 443 - Action PC,PC,2017,Action,Square Enix,1.67,2.29,0.08,0.86,4.91,66.7,8.0,E
+444,Game 444 - Sports PC,PC,2013,Sports,Electronic Arts,1.19,1.42,0.04,0.15,2.81,82.8,6.9,E10+
+445,Game 445 - Shooter XOne,XOne,2014,Shooter,Nintendo,1.59,0.21,2.04,0.11,3.94,84.5,9.4,E10+
+446,Game 446 - Misc PS4,PS4,2015,Misc,Square Enix,0.5,1.47,0.25,0.21,2.43,62.8,3.3,T
+447,Game 447 - Platform PC,PC,2019,Platform,Take-Two Interactive,1.42,0.17,0.21,0.28,2.08,82.3,7.8,E10+
+448,Game 448 - Platform XSX,XSX,2023,Platform,Electronic Arts,0.72,1.7,0.27,0.5,3.2,82.0,5.9,T
+449,Game 449 - Racing PC,PC,2015,Racing,Electronic Arts,2.13,1.51,0.05,0.29,3.98,77.5,7.5,E10+
+450,Game 450 - Role-Playing Switch,Switch,2013,Role-Playing,Sony Computer Entertainment,1.4,3.43,0.67,0.1,5.59,88.7,9.9,E
+451,Game 451 - Simulation XOne,XOne,2021,Simulation,Square Enix,1.47,2.44,2.06,1.02,6.99,87.0,9.9,E10+
+452,Game 452 - Sports PS5,PS5,2018,Sports,Capcom,1.16,0.84,0.12,1.76,3.87,67.9,9.1,T
+453,Game 453 - Sports XOne,XOne,2013,Sports,Electronic Arts,1.65,0.2,0.29,0.05,2.18,81.9,9.5,E10+
+454,Game 454 - Action Switch,Switch,2016,Action,Sony Computer Entertainment,0.55,0.93,1.92,0.22,3.62,64.5,8.7,E
+455,Game 455 - Action PS4,PS4,2022,Action,Capcom,7.12,0.82,0.62,1.41,9.97,81.0,7.4,E
+456,Game 456 - Action PS5,PS5,2020,Action,Square Enix,3.42,4.42,0.36,0.15,8.35,99.0,9.1,T
+457,Game 457 - Sports Switch,Switch,2015,Sports,Nintendo,1.79,2.88,4.75,2.16,11.58,98.1,9.9,M
+458,Game 458 - Racing PS5,PS5,2016,Racing,Take-Two Interactive,1.04,1.43,0.01,0.27,2.76,78.4,6.1,M
+459,Game 459 - Sports PS5,PS5,2017,Sports,Square Enix,1.47,0.67,1.51,1.77,5.42,75.3,7.3,M
+460,Game 460 - Role-Playing PS4,PS4,2021,Role-Playing,Square Enix,0.93,0.52,0.23,0.17,1.85,60.1,6.9,E10+
+461,Game 461 - Racing PS4,PS4,2021,Racing,Square Enix,1.88,0.37,0.54,0.2,2.98,79.0,9.1,M
+462,Game 462 - Platform PC,PC,2015,Platform,Square Enix,0.97,1.29,0.1,0.3,2.66,72.8,6.2,M
+463,Game 463 - Role-Playing XSX,XSX,2016,Role-Playing,Capcom,0.84,0.17,0.1,0.28,1.39,69.7,6.6,T
+464,Game 464 - Role-Playing XOne,XOne,2013,Role-Playing,Capcom,0.94,1.32,0.53,0.19,2.98,61.5,4.6,E10+
+465,Game 465 - Role-Playing XSX,XSX,2016,Role-Playing,Square Enix,0.61,0.58,0.07,0.1,1.36,67.3,7.0,M
+466,Game 466 - Racing PS5,PS5,2020,Racing,Electronic Arts,1.81,0.47,0.11,0.15,2.54,74.7,6.2,M
+467,Game 467 - Sports PS4,PS4,2017,Sports,Nintendo,1.77,0.14,0.48,0.5,2.89,78.0,9.9,E10+
+468,Game 468 - Action PC,PC,2016,Action,Electronic Arts,1.42,0.3,0.16,0.06,1.95,72.9,6.0,T
+469,Game 469 - Sports XSX,XSX,2017,Sports,Take-Two Interactive,2.5,0.47,0.16,0.19,3.33,97.5,9.3,E
+470,Game 470 - Sports PS5,PS5,2024,Sports,Electronic Arts,6.25,1.85,0.33,0.53,8.96,92.6,6.4,E10+
+471,Game 471 - Sports PS5,PS5,2016,Sports,Square Enix,0.76,1.91,0.17,0.09,2.93,75.2,9.9,M
+472,Game 472 - Platform XOne,XOne,2021,Platform,Capcom,3.48,0.77,0.58,0.25,5.08,59.7,4.6,M
+473,Game 473 - Misc XOne,XOne,2021,Misc,Take-Two Interactive,4.77,0.62,0.14,0.27,5.81,99.0,9.9,E10+
+474,Game 474 - Shooter XSX,XSX,2018,Shooter,Capcom,9.2,0.7,0.26,0.08,10.24,99.0,8.1,T
+475,Game 475 - Racing XOne,XOne,2013,Racing,Square Enix,1.24,0.27,0.09,0.16,1.77,66.2,5.8,T
+476,Game 476 - Role-Playing PC,PC,2017,Role-Playing,Nintendo,0.58,1.88,0.2,0.46,3.12,90.8,8.3,E10+
+477,Game 477 - Role-Playing XOne,XOne,2018,Role-Playing,Sony Computer Entertainment,0.49,0.65,0.76,0.45,2.34,68.3,7.6,T
+478,Game 478 - Sports XSX,XSX,2021,Sports,Capcom,0.33,1.62,0.3,0.27,2.52,65.0,5.2,M
+479,Game 479 - Simulation XOne,XOne,2020,Simulation,Capcom,1.71,2.8,0.09,0.58,5.17,55.3,4.7,T
+480,Game 480 - Racing PC,PC,2015,Racing,Activision,0.97,0.33,0.06,0.19,1.55,76.6,7.4,E10+
+481,Game 481 - Action PS5,PS5,2014,Action,Nintendo,0.11,0.1,0.36,0.58,1.14,39.3,3.2,E
+482,Game 482 - Platform PS4,PS4,2023,Platform,Activision,0.59,3.28,0.12,0.54,4.53,80.8,4.9,T
+483,Game 483 - Role-Playing PS4,PS4,2016,Role-Playing,Nintendo,2.16,1.02,1.35,18.66,23.18,91.4,9.9,E10+
+484,Game 484 - Action XOne,XOne,2023,Action,Capcom,0.75,1.09,0.17,0.24,2.26,67.7,7.3,E10+
+485,Game 485 - Action PS4,PS4,2013,Action,Square Enix,0.22,1.73,0.11,0.12,2.18,69.0,8.8,E
+486,Game 486 - Misc Switch,Switch,2013,Misc,Ubisoft,0.59,1.17,0.08,0.78,2.62,83.5,9.9,E10+
+487,Game 487 - Shooter PS5,PS5,2021,Shooter,Electronic Arts,0.84,1.6,0.21,1.34,3.99,69.4,8.1,T
+488,Game 488 - Sports PS5,PS5,2018,Sports,Ubisoft,0.82,0.77,0.21,0.47,2.27,73.1,7.6,M
+489,Game 489 - Shooter XSX,XSX,2019,Shooter,Take-Two Interactive,4.85,2.19,0.52,0.23,7.79,74.9,8.9,E10+
+490,Game 490 - Sports Switch,Switch,2017,Sports,Sony Computer Entertainment,2.4,3.57,0.09,0.29,6.35,63.0,5.7,E
+491,Game 491 - Action PC,PC,2019,Action,Electronic Arts,2.71,0.51,0.4,0.3,3.92,81.7,6.5,E10+
+492,Game 492 - Simulation XSX,XSX,2023,Simulation,Nintendo,1.09,0.04,0.59,0.07,1.79,88.1,9.9,E
+493,Game 493 - Role-Playing PC,PC,2020,Role-Playing,Electronic Arts,1.59,3.75,0.06,2.11,7.51,96.2,9.3,E10+
+494,Game 494 - Racing PC,PC,2021,Racing,Electronic Arts,3.11,0.27,0.07,0.2,3.65,71.0,5.5,E
+495,Game 495 - Sports PS5,PS5,2017,Sports,Capcom,3.4,0.63,0.28,0.21,4.52,57.2,6.1,E
+496,Game 496 - Misc PS4,PS4,2015,Misc,Nintendo,0.15,0.76,0.14,2.68,3.74,88.4,9.0,M
+497,Game 497 - Sports PS4,PS4,2024,Sports,Activision,3.54,0.35,0.35,0.45,4.69,82.6,9.9,E10+
+498,Game 498 - Misc PS4,PS4,2022,Misc,Activision,2.08,1.09,0.03,0.14,3.34,75.2,7.7,T
+499,Game 499 - Platform Switch,Switch,2019,Platform,Take-Two Interactive,0.32,9.13,1.13,0.67,11.26,93.4,9.0,T
+500,Game 500 - Shooter PC,PC,2013,Shooter,Take-Two Interactive,0.39,0.88,0.25,0.11,1.63,77.3,7.5,M

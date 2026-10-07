@@ -45,7 +45,7 @@ def render_tab_1():
                     {'label': 'Other', 'value': 'other_sales'}
                 ],
                 value='global_sales', clearable=False
-            ), width=3),
+            ), width=2),
             dbc.Col(dcc.Dropdown(
                 id='t1-platform-filter',
                 options=[{'label': p, 'value': p} for p in df['platform'].unique()],
@@ -56,7 +56,8 @@ def render_tab_1():
                 min=df['release_year'].min(), max=df['release_year'].max(),
                 value=[df['release_year'].min(), df['release_year'].max()],
                 marks={str(year): str(year) for year in df['release_year'].unique()}, step=1
-            ), width=6)
+            ), width=5),
+            dbc.Col(dbc.Button("Reset Filters", id="t1-reset-btn", color="danger", className="w-100"), width=2)
         ], className="mb-4"),
         
         dbc.Row([
@@ -83,17 +84,18 @@ def render_tab_2():
                 id='t2-genre-filter',
                 options=[{'label': g, 'value': g} for g in df['genre'].unique()],
                 multi=True, placeholder="Select Genres"
-            ), width=4),
+            ), width=3),
             dbc.Col(dcc.Dropdown(
                 id='t2-platform-filter',
                 options=[{'label': p, 'value': p} for p in df['platform'].unique()],
                 multi=True, placeholder="Select Platforms"
-            ), width=4),
+            ), width=3),
             dbc.Col(dcc.Dropdown(
                 id='t2-publisher-filter',
                 options=[{'label': p, 'value': p} for p in df['publisher'].unique()],
                 multi=True, placeholder="Select Publishers"
-            ), width=4)
+            ), width=4),
+            dbc.Col(dbc.Button("Reset Filters", id="t2-reset-btn", color="danger", className="w-100"), width=2)
         ], className="mb-4"),
         
         dbc.Row([
@@ -119,16 +121,24 @@ def render_tab_3():
     return html.Div([
         dbc.Row([
             dbc.Col([
-                html.P("หมายเหตุ: ตัวกรองนี้ใช้สำหรับเลือกช่วงคะแนนวิจารณ์ (Critic Score 0-100 Points) เพื่อวิเคราะห์เฉพาะกลุ่มเกมที่มีระดับคุณภาพตามกำหนด", className="text-muted small"),
+                html.P("📌 หมายเหตุ: ตัวกรองช่วงคะแนนวิจารณ์ เพื่อเจาะลึกเฉพาะกลุ่มเกมเกรด A (90+), B (80-89) หรือกลุ่มทั่วไป", className="text-muted small"),
                 dcc.RangeSlider(
                     id='t3-score-slider',
                     min=0, max=100, step=1, value=[0, 100],
                     marks={i: str(i) for i in range(0, 101, 10)},
                     vertical=True, verticalHeight=300
+                ),
+                html.Br(),
+                html.P("📌 หมายเหตุ: ตัวกรองเรตติ้งความเหมาะสมเนื้อหา (E, E10+, T, M) เพื่อดูการกระจายตัวตามกลุ่มอายุเป้าหมาย", className="text-muted small"),
+                dcc.Checklist(
+                    id='t3-esrb-filter',
+                    options=[{'label': str(i), 'value': str(i)} for i in df['esrb_rating'].dropna().unique()],
+                    value=df['esrb_rating'].dropna().unique().tolist(),
+                    inline=False
                 )
             ], width=2),
             dbc.Col([
-                html.P("หมายเหตุ: ตัวกรองนี้ใช้สำหรับเลือกช่วงปี ค.ศ. ที่วางจำหน่าย เพื่อวิเคราะห์แนวโน้มคะแนนและยอดขายตามช่วงเวลา", className="text-muted small"),
+                html.P("📌 หมายเหตุ: ตัวกรองช่วงปีวางจำหน่าย เพื่อวิเคราะห์วิวัฒนาการของคะแนนวิจารณ์และพฤติกรรมผู้เล่นตามยุคสมัย", className="text-muted small"),
                 dcc.RangeSlider(
                     id='t3-year-slider',
                     min=df['release_year'].min(), max=df['release_year'].max(),
@@ -138,12 +148,13 @@ def render_tab_3():
                 )
             ], width=2),
             dbc.Col([
-                dbc.Row([
+                                dbc.Row([
                     dbc.Col(dcc.Dropdown(
                         id='t3-genre-filter',
                         options=[{'label': g, 'value': g} for g in df['genre'].unique()],
                         multi=True, placeholder="Select Genres"
-                    ), width=12)
+                    ), width=9),
+                    dbc.Col(dbc.Button("Reset Filters", id="t3-reset-btn", color="danger", className="w-100"), width=3)
                 ], className="mb-4"),
                 
                 dbc.Row([
@@ -159,13 +170,17 @@ def render_tab_3():
         ]),
         
         dbc.Row([
-            dbc.Col(dcc.Graph(id='t3-top-rated-bar'), width=6),
-            dbc.Col(dcc.Graph(id='t3-top-selling-bar'), width=6)
+            dbc.Col(dcc.Graph(id='t3-top-rated-bar'), width=12)
         ]),
         
         dbc.Row([
             dbc.Col(dcc.Graph(id='t3-score-compare-bar'), width=12)
-        ])
+        ]),
+        
+        dbc.Row([
+            dbc.Col(dcc.Graph(id='t3-esrb-regional-bar'), width=6),
+            dbc.Col(dcc.Graph(id='t3-esrb-heatmap'), width=6)
+        ]),
     ])
 
 @app.callback(Output('tabs-content', 'children'), Input('tabs', 'value'))
@@ -308,15 +323,16 @@ def update_tab_2(genres, platforms, publishers, heatmap_click):
 @app.callback(
     [Output('t3-kpi-critic', 'children'), Output('t3-kpi-user', 'children'),
      Output('t3-kpi-hit', 'children'), Output('t3-score-tiers-bar', 'figure'),
-     Output('t3-top-rated-bar', 'figure'), Output('t3-top-selling-bar', 'figure'),
-     Output('t3-score-compare-bar', 'figure')],
+     Output('t3-top-rated-bar', 'figure'), Output('t3-score-compare-bar', 'figure'),
+     Output('t3-esrb-regional-bar', 'figure'), Output('t3-esrb-heatmap', 'figure')],
     [Input('t3-score-slider', 'value'), Input('t3-genre-filter', 'value'), Input('t3-year-slider', 'value'),
-     Input('t3-score-tiers-bar', 'clickData')]
+     Input('t3-esrb-filter', 'value'), Input('t3-score-tiers-bar', 'clickData')]
 )
-def update_tab_3(score_range, genres, year_range, tier_click):
+def update_tab_3(score_range, genres, year_range, esrb_ratings, tier_click):
     f_df = df[(df['critic_score'] >= score_range[0]) & (df['critic_score'] <= score_range[1]) &
               (df['release_year'] >= year_range[0]) & (df['release_year'] <= year_range[1])].copy()
     if genres: f_df = f_df[f_df['genre'].isin(genres)]
+    if esrb_ratings: f_df = f_df[f_df['esrb_rating'].isin(esrb_ratings)]
     
     conditions = [
         (f_df['critic_score'] >= 90),
@@ -348,9 +364,7 @@ def update_tab_3(score_range, genres, year_range, tier_click):
     hit_count = f"{len(f_df[f_df['global_sales'] > 1]):,} Titles"
     
     grouped_df = f_df.groupby('clean_title').agg({'critic_score': 'mean', 'global_sales': 'sum'}).reset_index()
-    
     top_rated = grouped_df.nlargest(10, 'critic_score')
-    top_selling = grouped_df.nlargest(10, 'global_sales')
     
     fig_top_rated = px.bar(
         top_rated, x='critic_score', y='clean_title', orientation='h', range_x=[0, 100],
@@ -359,28 +373,67 @@ def update_tab_3(score_range, genres, year_range, tier_click):
     )
     fig_top_rated.update_layout(yaxis={'categoryorder':'total ascending'}, margin=dict(t=80))
     
-    fig_top_selling = px.bar(
-        top_selling, x='global_sales', y='clean_title', orientation='h',
-        title=f'Top 10 Best Selling Games{click_label}<br><sup style="font-size:12px; color:gray">แสดง 10 อันดับเกมที่มียอดขายสูงสุด เทียบกับ ยอดขายรวมทุกแพลตฟอร์ม ($M USD)</sup>',
-        labels={'global_sales': 'Global Sales ($M USD)', 'clean_title': 'Game Title'}
-    )
-    fig_top_selling.update_layout(yaxis={'categoryorder':'total ascending'}, margin=dict(t=80))
-    
     f_df['scaled_user_score'] = f_df['user_score'] * 10
     genre_scores = f_df.groupby('genre')[['critic_score', 'scaled_user_score']].mean().reset_index()
-    genre_scores['Score Gap'] = genre_scores['critic_score'] - genre_scores['scaled_user_score']
-    genre_scores['color'] = np.where(genre_scores['Score Gap'] > 0, 'Critics Liked More (+)', 'Users Liked More (-)')
+    genre_scores = genre_scores.rename(columns={'critic_score': 'Critic Score', 'scaled_user_score': 'User Score'})
     
-    fig_compare = px.bar(
-        genre_scores, x='genre', y='Score Gap', color='color',
-        color_discrete_map={'Critics Liked More (+)': 'blue', 'Users Liked More (-)': 'red'},
-        title=f'Critic vs. User Score Gap Analysis Chart{click_label}<br><sup style="font-size:12px; color:gray">แสดงการเปรียบเทียบ ส่วนต่างคะแนน (Score Gap) ระหว่างนักวิจารณ์และผู้เล่น (Δ = Critic - User) ในแต่ละหมวดหมู่เกม</sup>',
-        labels={'Score Gap': 'Score Gap (Points)', 'genre': 'Genre', 'color': 'Preference'}
+    fig_compare = px.line(
+        genre_scores, x='genre', y=['Critic Score', 'User Score'],
+        title=f'Critic vs. User Score Comparison Chart by Genre{click_label}<br><sup style="font-size:12px; color:gray">แสดงการเปรียบเทียบระหว่าง คะแนนเฉลี่ยจากนักวิจารณ์ (Critic Score) และ คะแนนเฉลี่ยจากผู้เล่น (User Score) ในแต่ละหมวดหมู่เกม (Genre) เพื่อดูความสอดคล้องของรสนิยม</sup>',
+        color_discrete_map={'Critic Score': 'blue', 'User Score': 'red'},
+        markers=True,
+        labels={'value': 'Average Score (Points)', 'genre': 'Genre', 'variable': 'Score Type'}
     )
-    fig_compare.add_hline(y=0, line_width=2, line_color="black")
-    fig_compare.update_layout(margin=dict(t=80))
+    fig_compare.update_layout(yaxis_range=[0, 100], margin=dict(t=80))
+
+    regions = ['na_sales', 'eu_sales', 'jp_sales', 'other_sales']
+    esrb_regional = f_df.groupby('esrb_rating')[regions].sum().reset_index()
+    esrb_regional_melted = esrb_regional.melt(id_vars=['esrb_rating'], value_vars=regions, var_name='Region', value_name='Sales')
     
-    return avg_critic, avg_user, hit_count, fig_tiers, fig_top_rated, fig_top_selling, fig_compare
+    fig_esrb_regional = px.bar(
+        esrb_regional_melted, x='esrb_rating', y='Sales', color='Region', barmode='stack',
+        title=f'Regional Market Preference by ESRB Rating{click_label}<br><sup style="font-size:12px; color:gray">แสดงสัดส่วนเปอร์เซ็นต์ยอดขายรายภูมิภาค จำแนกตามเรตติ้งความเหมาะสมเนื้อหา (ESRB Rating)</sup>',
+        labels={'Sales': 'Percentage Share (%)', 'esrb_rating': 'ESRB Rating'}
+    )
+    fig_esrb_regional.update_layout(barnorm='percent', margin=dict(t=80))
+    
+    heatmap_esrb_data = f_df.pivot_table(index='genre', columns='esrb_rating', values='global_sales', aggfunc='sum').fillna(0)
+    fig_esrb_heatmap = px.imshow(
+        heatmap_esrb_data, 
+        title=f'Genre x ESRB Sales Matrix{click_label}<br><sup style="font-size:12px; color:gray">แสดงความเข้มข้นของยอดขายรวม ($M USD) ระหว่างแนวเกม (Genre) เทียบกับเรตติ้งเนื้อหา (ESRB Rating)</sup>',
+        labels=dict(x="ESRB Rating", y="Genre", color="Global Sales ($M USD)")
+    )
+    fig_esrb_heatmap.update_layout(margin=dict(t=80))
+    
+    return avg_critic, avg_user, hit_count, fig_tiers, fig_top_rated, fig_compare, fig_esrb_regional, fig_esrb_heatmap
+
+
+@app.callback(
+    [Output('t1-region-filter', 'value'), Output('t1-platform-filter', 'value'), Output('t1-year-slider', 'value')],
+    Input('t1-reset-btn', 'n_clicks'),
+    prevent_initial_call=True
+)
+def reset_tab1(n_clicks):
+    return 'global_sales', [], [df['release_year'].min(), df['release_year'].max()]
+
+@app.callback(
+    [Output('t2-genre-filter', 'value'), Output('t2-platform-filter', 'value'), Output('t2-publisher-filter', 'value')],
+    Input('t2-reset-btn', 'n_clicks'),
+    prevent_initial_call=True
+)
+def reset_tab2(n_clicks):
+    return [], [], []
+
+@app.callback(
+    [Output('t3-score-slider', 'value'), Output('t3-esrb-filter', 'value'), 
+     Output('t3-year-slider', 'value'), Output('t3-genre-filter', 'value')],
+    Input('t3-reset-btn', 'n_clicks'),
+    prevent_initial_call=True
+)
+def reset_tab3(n_clicks):
+    return [0, 100], df['esrb_rating'].dropna().unique().tolist(), [df['release_year'].min(), df['release_year'].max()], []
 
 if __name__ == '__main__':
+    app.run(debug=True)
+
     app.run(debug=True)

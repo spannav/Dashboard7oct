@@ -267,7 +267,7 @@ def update_tab_1(region, platforms, year_range, yearly_selected):
     regions = ['na_sales', 'eu_sales', 'jp_sales', 'other_sales']
     melted = f_df.melt(id_vars=['genre'], value_vars=regions, var_name='Region', value_name='Sales')
     regional_genre_sums = melted.groupby(['Region', 'genre'])['Sales'].sum().reset_index()
-    fig_regional = px.bar(regional_genre_sums, color_discrete_sequence=['#6EB897', '#4A4EA4', '#FF6B6B', '#FECB2E'], x='Region', y='Sales', color='genre', barmode='stack',
+    fig_regional = px.bar(regional_genre_sums, color_discrete_sequence=['#6EB897', '#4A4EA4', '#FF6B6B', '#FECB2E', '#36C9C6', '#9B5DE5', '#F15BB5', '#00BBF9', '#00F5D4', '#F4A261', '#E76F51', '#2A9D8F'], x='Region', y='Sales', color='genre', barmode='stack',
         title=f'Regional Sales Breakdown{year_label}<br><sup style="font-size:12px; color:gray">แสดงการเปรียบเทียบระหว่าง ภูมิภาคหลัก ซ้อนทับตาม หมวดหมู่เกม (Genre) เพื่อดูสัดส่วนยอดขายและความนิยม</sup>',
         labels={'Sales': 'Sales ($M USD)', 'genre': 'Genre'}
     )

@@ -1,5 +1,7 @@
 # Global Video Game Sales & Market Analytics Dashboard
 
+**GitHub Repository:** [https://github.com/spannav/Dashboard7oct](https://github.com/spannav/Dashboard7oct)
+
 ## Project Overview
 This project is an interactive dashboard for analyzing the global video game market, including growth trends, regional consumer behaviors, the relationship between game genres, platforms, and publishers, as well as the correlation between game quality (review scores) and commercial success.
 

@@ -2,6 +2,15 @@
 
 **GitHub Repository:** [https://github.com/spannav/Dashboard7oct](https://github.com/spannav/Dashboard7oct)
 
+## **สมาชิก กลุ่ม "ธนพล"**
+| ลำดับ | รหัสนักศึกษา | ชื่อ-นามสกุล |
+| :---: | :---: | :--- |
+| 1 | 673020253-2 | ธนพล ท้าวนอ |
+| 2 | 673020271-0 | อุดมศักดิ์ พระเสนา |
+| 3 | 673020627-7 | ศุภณัฏฐ์ ปุณมา |
+| 4 | 673020638-7 | พิชญธิดา ขัตติยะ |
+| 5 | 673020639-5 | ศศิภัทชา เจียรเจริญกิจ |
+
 ## Project Overview
 This project is an interactive dashboard for analyzing the global video game market, including growth trends, regional consumer behaviors, the relationship between game genres, platforms, and publishers, as well as the correlation between game quality (review scores) and commercial success.
 

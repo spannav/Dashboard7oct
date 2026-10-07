@@ -1,0 +1,79 @@
+
+body {
+    background-color: #F4F5F7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    background-color: #343A40;
+    color: #E2E8F0;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    z-index: 1000;
+}
+
+.sidebar-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+.sidebar-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 10px;
+    background-color: #2B303A;
+    border-radius: 12px;
+}
+
+.nav-pills .nav-link {
+    color: #94A3B8;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+    padding: 10px 15px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #4A4EA4;
+    color: #FFFFFF;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 2rem;
+    background-color: #F4F5F7;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 20px !important;
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.04) !important;
+    border: none !important;
+    background-color: #FFFFFF !important;
+    margin-bottom: 1rem;
+}
+
+.hero-card {
+    background-color: #6EB897 !important;
+    color: white !important;
+}
+
+.hero-card h5, .hero-card h1, .hero-card h2, .hero-card h4 {
+    color: white !important;
+}
+
+.btn-danger {
+    border-radius: 50rem !important; /* Pill shape */
+}
+
+/* Make graphs border-radius too */
+.js-plotly-plot {
+    border-radius: 20px;
+    overflow: hidden;
+}

@@ -15,6 +15,7 @@ This project is an interactive dashboard for analyzing the global video game mar
 ## Setup Instructions
 1. Install requirements: `pip install -r requirements.txt`
 2. Run the application: `python app.py`
+3. Open the dashboard in your browser: [http://localhost:8050/](http://localhost:8050/)
 
 ## Features
 - Interactive cross-filtering across charts within the same tab.

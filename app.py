@@ -17,6 +17,7 @@ df['clean_title'] = df['title'].str.replace(r'^Game\s*\d*\s*-\s*', '', regex=Tru
 # Initialize App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.title = "Global Video Game Sales & Market Analytics"
+server = app.server  # Required for deployment (Gunicorn/Render)
 
 
 sidebar = html.Div([
@@ -461,4 +462,3 @@ def reset_tab3(n_clicks):
 if __name__ == '__main__':
     app.run(debug=True)
 
-    app.run(debug=True)
